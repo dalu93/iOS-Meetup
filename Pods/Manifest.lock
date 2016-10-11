@@ -1,0 +1,12 @@
+PODS:
+  - SwiftHelpSet (1.4)
+
+DEPENDENCIES:
+  - SwiftHelpSet
+
+SPEC CHECKSUMS:
+  SwiftHelpSet: 13357e5bdce69564994eca078aa1518e6d24b3e8
+
+PODFILE CHECKSUM: 270e2b8d37d6ec29454403cedd5bbb98bb1e3f90
+
+COCOAPODS: 1.1.0.rc.2

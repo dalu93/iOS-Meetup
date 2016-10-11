@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81985CA21D9E3D2D00142921 /* TableViewExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81985CA11D9E3D2D00142921 /* TableViewExampleController.swift */; };
+		81BC2BD71D93B43800D8F398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BC2BD61D93B43800D8F398 /* AppDelegate.swift */; };
+		81BC2BD91D93B43800D8F398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BC2BD81D93B43800D8F398 /* ViewController.swift */; };
+		81BC2BDC1D93B43800D8F398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BC2BDA1D93B43800D8F398 /* Main.storyboard */; };
+		81BC2BDE1D93B43800D8F398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BC2BDD1D93B43800D8F398 /* Assets.xcassets */; };
+		81BC2BE11D93B43800D8F398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BC2BDF1D93B43800D8F398 /* LaunchScreen.storyboard */; };
+		81BC2BEC1D93B43800D8F398 /* FunctionalGenericProgrammingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BC2BEB1D93B43800D8F398 /* FunctionalGenericProgrammingTests.swift */; };
+		D89505AB9239E93A31023A6A /* Pods_FunctionalGenericProgramming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7508E31755C704B24B6B0D /* Pods_FunctionalGenericProgramming.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81BC2BE81D93B43800D8F398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81BC2BCB1D93B43800D8F398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81BC2BD21D93B43800D8F398;
+			remoteInfo = FunctionalGenericProgramming;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81985CA11D9E3D2D00142921 /* TableViewExampleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExampleController.swift; sourceTree = "<group>"; };
+		81BC2BD31D93B43800D8F398 /* FunctionalGenericProgramming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionalGenericProgramming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BC2BD61D93B43800D8F398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81BC2BD81D93B43800D8F398 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81BC2BDB1D93B43800D8F398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81BC2BDD1D93B43800D8F398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81BC2BE01D93B43800D8F398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81BC2BE21D93B43800D8F398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BC2BE71D93B43800D8F398 /* FunctionalGenericProgrammingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionalGenericProgrammingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BC2BEB1D93B43800D8F398 /* FunctionalGenericProgrammingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalGenericProgrammingTests.swift; sourceTree = "<group>"; };
+		81BC2BED1D93B43800D8F398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05E31AB7CD6E781B2FD11A8 /* Pods-FunctionalGenericProgramming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalGenericProgramming.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionalGenericProgramming/Pods-FunctionalGenericProgramming.release.xcconfig"; sourceTree = "<group>"; };
+		C7A14435D058409BF2D2B390 /* Pods-FunctionalGenericProgramming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalGenericProgramming.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionalGenericProgramming/Pods-FunctionalGenericProgramming.debug.xcconfig"; sourceTree = "<group>"; };
+		CC7508E31755C704B24B6B0D /* Pods_FunctionalGenericProgramming.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunctionalGenericProgramming.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81BC2BD01D93B43800D8F398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89505AB9239E93A31023A6A /* Pods_FunctionalGenericProgramming.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BC2BE41D93B43800D8F398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059BBC2D0DB69425FCC5E00D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC7508E31755C704B24B6B0D /* Pods_FunctionalGenericProgramming.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81BC2BCA1D93B43800D8F398 = {
+			isa = PBXGroup;
+			children = (
+				81BC2BD51D93B43800D8F398 /* FunctionalGenericProgramming */,
+				81BC2BEA1D93B43800D8F398 /* FunctionalGenericProgrammingTests */,
+				81BC2BD41D93B43800D8F398 /* Products */,
+				D5777098760BE1172A6CF65A /* Pods */,
+				059BBC2D0DB69425FCC5E00D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81BC2BD41D93B43800D8F398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81BC2BD31D93B43800D8F398 /* FunctionalGenericProgramming.app */,
+				81BC2BE71D93B43800D8F398 /* FunctionalGenericProgrammingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81BC2BD51D93B43800D8F398 /* FunctionalGenericProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				81BC2BD61D93B43800D8F398 /* AppDelegate.swift */,
+				81BC2BD81D93B43800D8F398 /* ViewController.swift */,
+				81BC2BDA1D93B43800D8F398 /* Main.storyboard */,
+				81BC2BDD1D93B43800D8F398 /* Assets.xcassets */,
+				81BC2BDF1D93B43800D8F398 /* LaunchScreen.storyboard */,
+				81BC2BE21D93B43800D8F398 /* Info.plist */,
+				81985CA11D9E3D2D00142921 /* TableViewExampleController.swift */,
+			);
+			path = FunctionalGenericProgramming;
+			sourceTree = "<group>";
+		};
+		81BC2BEA1D93B43800D8F398 /* FunctionalGenericProgrammingTests */ = {
+			isa = PBXGroup;
+			children = (
+				81BC2BEB1D93B43800D8F398 /* FunctionalGenericProgrammingTests.swift */,
+				81BC2BED1D93B43800D8F398 /* Info.plist */,
+			);
+			path = FunctionalGenericProgrammingTests;
+			sourceTree = "<group>";
+		};
+		D5777098760BE1172A6CF65A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7A14435D058409BF2D2B390 /* Pods-FunctionalGenericProgramming.debug.xcconfig */,
+				A05E31AB7CD6E781B2FD11A8 /* Pods-FunctionalGenericProgramming.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81BC2BD21D93B43800D8F398 /* FunctionalGenericProgramming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BC2BF01D93B43800D8F398 /* Build configuration list for PBXNativeTarget "FunctionalGenericProgramming" */;
+			buildPhases = (
+				807D50FD93A5150AD55EB30D /* [CP] Check Pods Manifest.lock */,
+				81BC2BCF1D93B43800D8F398 /* Sources */,
+				81BC2BD01D93B43800D8F398 /* Frameworks */,
+				81BC2BD11D93B43800D8F398 /* Resources */,
+				B754D4C9F2873B6BA9F69819 /* [CP] Embed Pods Frameworks */,
+				BDC1A9D951ABD8E640935DF8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunctionalGenericProgramming;
+			productName = FunctionalGenericProgramming;
+			productReference = 81BC2BD31D93B43800D8F398 /* FunctionalGenericProgramming.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81BC2BE61D93B43800D8F398 /* FunctionalGenericProgrammingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BC2BF31D93B43800D8F398 /* Build configuration list for PBXNativeTarget "FunctionalGenericProgrammingTests" */;
+			buildPhases = (
+				81BC2BE31D93B43800D8F398 /* Sources */,
+				81BC2BE41D93B43800D8F398 /* Frameworks */,
+				81BC2BE51D93B43800D8F398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81BC2BE91D93B43800D8F398 /* PBXTargetDependency */,
+			);
+			name = FunctionalGenericProgrammingTests;
+			productName = FunctionalGenericProgrammingTests;
+			productReference = 81BC2BE71D93B43800D8F398 /* FunctionalGenericProgrammingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81BC2BCB1D93B43800D8F398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = STRV;
+				TargetAttributes = {
+					81BC2BD21D93B43800D8F398 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					81BC2BE61D93B43800D8F398 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81BC2BD21D93B43800D8F398;
+					};
+				};
+			};
+			buildConfigurationList = 81BC2BCE1D93B43800D8F398 /* Build configuration list for PBXProject "FunctionalGenericProgramming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81BC2BCA1D93B43800D8F398;
+			productRefGroup = 81BC2BD41D93B43800D8F398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81BC2BD21D93B43800D8F398 /* FunctionalGenericProgramming */,
+				81BC2BE61D93B43800D8F398 /* FunctionalGenericProgrammingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81BC2BD11D93B43800D8F398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BC2BE11D93B43800D8F398 /* LaunchScreen.storyboard in Resources */,
+				81BC2BDE1D93B43800D8F398 /* Assets.xcassets in Resources */,
+				81BC2BDC1D93B43800D8F398 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BC2BE51D93B43800D8F398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		807D50FD93A5150AD55EB30D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B754D4C9F2873B6BA9F69819 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunctionalGenericProgramming/Pods-FunctionalGenericProgramming-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDC1A9D951ABD8E640935DF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunctionalGenericProgramming/Pods-FunctionalGenericProgramming-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81BC2BCF1D93B43800D8F398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81985CA21D9E3D2D00142921 /* TableViewExampleController.swift in Sources */,
+				81BC2BD91D93B43800D8F398 /* ViewController.swift in Sources */,
+				81BC2BD71D93B43800D8F398 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BC2BE31D93B43800D8F398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BC2BEC1D93B43800D8F398 /* FunctionalGenericProgrammingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81BC2BE91D93B43800D8F398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81BC2BD21D93B43800D8F398 /* FunctionalGenericProgramming */;
+			targetProxy = 81BC2BE81D93B43800D8F398 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81BC2BDA1D93B43800D8F398 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81BC2BDB1D93B43800D8F398 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81BC2BDF1D93B43800D8F398 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81BC2BE01D93B43800D8F398 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81BC2BEE1D93B43800D8F398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81BC2BEF1D93B43800D8F398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81BC2BF11D93B43800D8F398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A14435D058409BF2D2B390 /* Pods-FunctionalGenericProgramming.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunctionalGenericProgramming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalu93.FunctionalGenericProgramming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		81BC2BF21D93B43800D8F398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A05E31AB7CD6E781B2FD11A8 /* Pods-FunctionalGenericProgramming.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunctionalGenericProgramming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalu93.FunctionalGenericProgramming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		81BC2BF41D93B43800D8F398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FunctionalGenericProgrammingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalu93.FunctionalGenericProgrammingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunctionalGenericProgramming.app/FunctionalGenericProgramming";
+			};
+			name = Debug;
+		};
+		81BC2BF51D93B43800D8F398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FunctionalGenericProgrammingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalu93.FunctionalGenericProgrammingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunctionalGenericProgramming.app/FunctionalGenericProgramming";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81BC2BCE1D93B43800D8F398 /* Build configuration list for PBXProject "FunctionalGenericProgramming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BC2BEE1D93B43800D8F398 /* Debug */,
+				81BC2BEF1D93B43800D8F398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BC2BF01D93B43800D8F398 /* Build configuration list for PBXNativeTarget "FunctionalGenericProgramming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BC2BF11D93B43800D8F398 /* Debug */,
+				81BC2BF21D93B43800D8F398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BC2BF31D93B43800D8F398 /* Build configuration list for PBXNativeTarget "FunctionalGenericProgrammingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BC2BF41D93B43800D8F398 /* Debug */,
+				81BC2BF51D93B43800D8F398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81BC2BCB1D93B43800D8F398 /* Project object */;
+}

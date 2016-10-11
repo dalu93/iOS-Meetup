@@ -1,0 +1,6 @@
+framework module SwiftHelpSet {
+  umbrella header "SwiftHelpSet-umbrella.h"
+
+  export *
+  module * { export * }
+}
